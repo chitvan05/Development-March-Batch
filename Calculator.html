@@ -5,24 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script type="text/javascript" src="JavaScript.js"></script>
+    <script type="text/javascript" src="JavaScriptRevision.js"></script>
 </head>
 <body>
     <h1>Calulator</h1>
     <br>
     <p>number 1</p>
+
+
     <input type="text" name="" id="num1">
     <p>number 2</p>
     <input type="text" name="" id="num2">
     <p>Operation</p>
     <input type="text" id="operation">
     <br>
+    <p>Number Added</p>
+    <input type="text" id="calculationInput">
+
+    <button onclick="displayNumbers('1')" >1</button>
+    <button onclick="displayNumbers('2')" >2</button>
+    <button onclick="displayNumbers('3')" >3</button>
+    <button onclick="displayNumbers('4')" >4</button>
+
+    
     <br>
-    <button onclick="setOperation('add')">+</button>
+
+    <!-- <button onclick="setOperation('add')">+</button>
     <button onclick="setOperation('sub')">-</button>
     <button onclick="setOperation('mul')">*</button>
-    <button onclick="setOperation('div')">/</button>
-    
+    <button onclick="setOperation('div')">/</button> -->
+    <br>
     <button onclick="calculator()" >Calculate</button>
     <p>Result</p>
     <input type="text" id="result">
